@@ -14,7 +14,7 @@
      </div> -->
 
     <H1>Git and Github notes:</H1>
-    <h3>(Their meaning and their uses)</h3>
+    <h3 class="subhead">(Their meaning and their uses)</h3>
 
     <div class="GIT">
          <p class="git"><u>Git</u>: </p>
@@ -86,7 +86,7 @@
     </div>
 
 
-    <div class="init">
+    <div class="merge">
         <h2>Merging Code</h2>
          <li>there are two ways of merging code</li>
          <h3 class="way1">way 1
@@ -99,8 +99,30 @@
             <p>create a PR (pull request) </p>
          </h3>
     </div>
+
+    <div class="undo">
+        <h3>Case 1 : Staged changes : These changes which are changed but not added </h3>
+         <li>git reset <- file name -> (for one file)</li>
+         <p>git reset (for all file) </p>
+         <h3>
+            Case 2 : Commited changes (for one commit)
+            <p>Git reset HEAD~1 </p>
+         </h3>
+         <h3>
+            Case 3 : Commited changes (for multiple commits)
+            <p>Git reset <- commit hash-> </p>
+            <p>Git reset --hard <- commit hash-> </p>
+         </h3>
+    </div>
+    <div class="fork">
+        <h3>Fork
+            <p>A fork is a new repositary that shares code and visibility settings with the original "upstream" repositary</p>
+            <p>it a rough copy</p>
+        </h3>
+    </div>
 <br>
 <br>
+
     <hr>
 
     <div class="GITHUB">
@@ -122,7 +144,7 @@
         <li>Code Editor -> Word Processor for writing codes</li>
         <li>Repository -> Project,or the folder </li>
         <li>GitHub -> A web to host repositary online</li>
-    </ol>    
+    </ol>       
    </div>
 </body>
 </html>

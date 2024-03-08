@@ -1,0 +1,68 @@
+* {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+    text-shadow: 8px 8px 20px rgb(157 3 243 / 87%);
+  }
+  
+  body {
+    background: linear-gradient(
+      to top,
+      rgb(0 0 0 / 93%) 50%,
+      rgba(17, 17, 17, 0.995) 50%
+    );
+  
+    /* background: #000000; */
+    /* background: #1f11df; */
+    /* background-color: rgba(4, 4, 45, 0.886); */
+    color: rgba(255, 254, 254, 0.977);
+  }
+  
+  h1 {
+    color: azure;
+    font-size: 45px;
+  }
+  h3 {
+    color: rgb(28, 174, 174);
+    padding-top: 3vh;
+    font-size: 20px;
+  }
+  
+  .cl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: rgba(113, 255, 251, 0.792);
+    font-size: 35px;
+    text-shadow: 2px 2px 20px rgb(255, 251, 6);
+  }
+  
+  p,
+  li {
+    padding-top: 2vh;
+    font-size: 24px;
+  }
+  
+  a {
+    color: #7c72ff;
+    text-decoration: none;
+  }
+  
+  span,
+  col {
+    color: rgb(0, 234, 255);
+    font-style: Times;
+  }
+  
+  .git {
+    color: yellow;
+    font-size: 40px;
+    padding-top: 4vh;
+  }
+  h2 {
+    color: yellow;
+    font-size: 25px;
+    padding-top: 2vh;
+  }
+  
